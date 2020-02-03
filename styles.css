@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px 0 50px;
+}
+
+    .box {
+        width: 600px;
+        margin: auto;
+        border-bottom-color: black;
+        border-bottom-style: solid;
+        border-bottom-width: 4px;
+    }
+
+        button {
+            width: 100px;
+            padding: 10px;
+            box-shadow: 1px 2px 2px black;
+            border-radius: 3px;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 35px;
+        }
+
+        .box .description {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 20px;
+            width: 64%;
+        }
+
+            .red {
+                color: red;
+            }
+
+            .blue {
+                color: blue;
+            }
+
